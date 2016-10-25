@@ -21,6 +21,7 @@ export class AboutComponent {
 @Component ({
   selector: 'aboutname-app',
   templateUrl: 'app/about/aboutdetails/aboutname.html',
+  styleUrls: ['app/about/aboutdetails/aboutdetails.css']
 
 })
 export class AboutNameComponent {}
@@ -28,6 +29,7 @@ export class AboutNameComponent {}
 @Component ({
   selector: 'aboutcontent-app',
   templateUrl: 'app/about/aboutdetails/aboutcontent.html',
+  styleUrls: ['app/about/aboutdetails/aboutdetails.css']
 
 })
 export class AboutContentComponent {}

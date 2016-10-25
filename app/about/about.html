@@ -1,5 +1,9 @@
-<h1>About Page</h1>
-<a routerLink="aboutname" routerLinkActive="active">Name</a>
-<a routerLink="aboutcontent" routerLinkActive="active">Content</a>
-{{parentRouteId}}
-<router-outlet></router-outlet>
+<div>
+    <h1>About View</h1>
+    <h2>Parameters : {{parentRouteId}}</h2>
+    <nav class="cl-effect-14">
+    <a routerLink="aboutname" routerLinkActive="active">Name</a>
+    <a routerLink="aboutcontent" routerLinkActive="active">Content</a>
+    </nav>
+    <router-outlet></router-outlet>
+</div>
